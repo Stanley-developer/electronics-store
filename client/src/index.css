@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+:root {
+
+  /* ===========================================
+     BRAND COLORS
+  =========================================== */
+
+  --brand-primary-orange: #FF6A00;
+  --brand-primary-orange-hover: #F25C05;
+  --brand-primary-orange-light: #FFF3EB;
+  --brand-primary-orange-lighter: #FFF8F3;
+  --brand-primary-orange-border: #FFD7BF;
+
+  /* Logo Gradient */
+  --brand-logo-gradient-start: #FFB300;
+  --brand-logo-gradient-middle: #FF7A00;
+  --brand-logo-gradient-end: #FF5A00;
+
+  --brand-secondary-navy: #0F2A4D;
+  --brand-secondary-navy-light: #17385F;
+  --brand-secondary-navy-hover: #1C4575;
+
+
+  /* ===========================================
+     PAGE BACKGROUNDS
+  =========================================== */
+
+  --page-background: #FFFFFF;
+  --page-background-secondary: #FAFAFA;
+  --page-section-background: #F7F8FA;
+  --card-background: #FFFFFF;
+  --sidebar-background: #FCFCFC;
+
+
+  /* ===========================================
+     TEXT COLORS
+  =========================================== */
+
+  --heading-text-color: #1C1C1C;
+  --body-text-color: #5B5B5B;
+  --placeholder-text-color: #8D8D8D;
+  --disabled-text-color: #B5B5B5;
+  --white-text-color: #FFFFFF;
+
+
+  /* ===========================================
+     BORDERS
+  =========================================== */
+
+  --default-border-color: #E8E8E8;
+  --light-border-color: #F1F1F1;
+  --hover-border-color: #D9D9D9;
+
+
+  /* ===========================================
+     BUTTON COLORS
+  =========================================== */
+
+  --primary-button-background: #FF6A00;
+  --primary-button-hover-background: #F25C05;
+  --primary-button-text-color: #FFFFFF;
+
+  --secondary-button-background: #FFFFFF;
+  --secondary-button-text-color: #1C1C1C;
+  --secondary-button-border-color: #E8E8E8;
+
+
+  /* ===========================================
+     INPUT FIELDS
+  =========================================== */
+
+  --input-background: #FFFFFF;
+  --input-border-color: #E8E8E8;
+  --input-border-focus-color: #FF6A00;
+  --input-placeholder-color: #8D8D8D;
+
+
+  /* ===========================================
+     STATUS COLORS
+  =========================================== */
+
+  --success-color: #22C55E;
+  --success-background: #ECFDF3;
+
+  --warning-color: #F59E0B;
+  --warning-background: #FFF8E6;
+
+  --error-color: #EF4444;
+  --error-background: #FEECEC;
+
+  --information-color: #3B82F6;
+  --information-background: #EFF6FF;
+
+
+  /* ===========================================
+     PRODUCT RATINGS
+  =========================================== */
+
+  --product-star-rating-color: #FFB400;
+
+
+  /* ===========================================
+     ICON COLORS
+  =========================================== */
+
+  --primary-icon-color: #FF6A00;
+  --secondary-icon-color: #0F2A4D;
+  --disabled-icon-color: #8C8C8C;
+
+
+  /* ===========================================
+     SHADOWS
+  =========================================== */
+
+  --small-box-shadow: rgba(15, 23, 42, 0.04);
+  --medium-box-shadow: rgba(15, 23, 42, 0.08);
+  --large-box-shadow: rgba(15, 23, 42, 0.12);
+
+
+  /* ===========================================
+     COMMON UI COLORS
+  =========================================== */
+
+  --price-color: #FF6A00;
+  --discount-badge-background: #FFF3EB;
+  --discount-badge-text-color: #FF6A00;
+
+  --navigation-active-color: #FF6A00;
+  --navigation-hover-color: #F25C05;
+
+  --link-color: #FF6A00;
+  --link-hover-color: #F25C05;
+
+}
+
+html {
+  font-family: 'DM Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'DM Sans', sans-serif;
+}

@@ -1,0 +1,35 @@
+.brand-card {
+  background: var(--card-background);
+  border-radius: 28px;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  box-shadow: 0 22px 58px rgba(15, 23, 42, 0.08);
+  padding: 32px;
+  color: var(--body-text-color);
+}
+
+.brand-card__eyebrow {
+  display: inline-flex;
+  margin-bottom: 14px;
+  color: var(--primary-button-background);
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+}
+
+.brand-card__title {
+  margin: 0 0 18px;
+  font-size: clamp(24px, 2vw, 32px);
+  line-height: 1.05;
+  color: var(--heading-text-color);
+}
+
+.brand-card__body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.brand-card__footer {
+  margin-top: 26px;
+}
