@@ -1,0 +1,45 @@
+.product-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.breadcrumb {
+  font-size: 14px;
+  color: #6e6e73;
+  margin-bottom: 40px;
+}
+
+.product-hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.product-gallery img {
+  width: 100%;
+  border-radius: 16px;
+}
+
+.product-info h1 {
+  font-size: 3rem;
+  margin-bottom: 16px;
+}
+
+.price {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.stock {
+  color: green;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.description {
+  line-height: 1.7;
+  color: #555;
+}
