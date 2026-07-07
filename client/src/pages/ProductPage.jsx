@@ -1,5 +1,6 @@
 import React from "react";
 import "./ProductPage.css";
+import UIButton from "../components/UIButton";
 
 export default function ProductPage() {
   return (
@@ -36,6 +37,26 @@ export default function ProductPage() {
             performance, all-day battery life, and a stunning Liquid Retina
             display.
           </p>
+          <div className="quantity-section">
+  <p>Quantity</p>
+
+  <div className="quantity-selector">
+    <button>-</button>
+
+    <span>1</span>
+
+    <button>+</button>
+  </div>
+</div>
+<div className="button-group">
+  <UIButton>
+    Add to Cart
+  </UIButton>
+
+  <UIButton variant="secondary">
+    Buy Now
+  </UIButton>
+</div>
         </div>
       </section>
     </div>

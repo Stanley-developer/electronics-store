@@ -4,6 +4,57 @@
   padding: 40px 20px;
 }
 
+.product-gallery img {
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.product-gallery img:hover {
+  transform: scale(1.03);
+}
+
+.product-info h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .product-hero {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .product-info h1 {
+    font-size: 2rem;
+  }
+}
+
+.rating {
+  color: #e2a600;
+  margin-bottom: 1rem;
+}
+
+.price {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  margin: 25px 0;
+}
+
+.stock {
+  color: green;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.description {
+  color: #555;
+  line-height: 1.8;
+  max-width: 500px;
+}
+
 .breadcrumb {
   font-size: 14px;
   color: #6e6e73;
@@ -42,4 +93,40 @@
 .description {
   line-height: 1.7;
   color: #555;
+}
+
+.quantity-section {
+  margin-top: 2rem;
+}
+
+.quantity-section p {
+  margin-bottom: 0.8rem;
+  font-weight: 600;
+}
+
+.quantity-selector {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.quantity-selector button {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #d2d2d7;
+  background: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.quantity-selector span {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.button-group {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
 }
