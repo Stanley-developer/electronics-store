@@ -9,7 +9,11 @@ export default function Footer() {
       <div className="footer-top">
         <div className="footer-brand">
           <Link to="/" className="footer-logo-link">
-            <img src={logo} alt="Electronics Store logo" className="footer-logo" />
+            <img
+              src={logo}
+              alt="Electronics Store logo"
+              className="footer-logo"
+            />
           </Link>
           <p>
             Premium laptops, phones, tablets, and accessories with fast delivery

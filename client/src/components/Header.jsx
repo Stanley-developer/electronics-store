@@ -42,16 +42,31 @@ export default function Header() {
         </div>
 
         <div className="header-right">
-          <Link className="icon" to="/cart" title="Cart" onClick={() => setMenuOpen(false)}>
+          <Link
+            className="icon"
+            to="/cart"
+            title="Cart"
+            onClick={() => setMenuOpen(false)}
+          >
             <ShoppingCart size={18} />
             <span className="cart-badge">0</span>
             <span className="icon-label">Cart</span>
           </Link>
-          <Link className="icon" to="/login" title="Login" onClick={() => setMenuOpen(false)}>
+          <Link
+            className="icon"
+            to="/login"
+            title="Login"
+            onClick={() => setMenuOpen(false)}
+          >
             <User size={18} />
             <span className="icon-label">Login</span>
           </Link>
-          <Link className="icon" to="/account" title="Account" onClick={() => setMenuOpen(false)}>
+          <Link
+            className="icon"
+            to="/account"
+            title="Account"
+            onClick={() => setMenuOpen(false)}
+          >
             <Heart size={18} />
             <span className="icon-label">Account</span>
           </Link>
@@ -67,7 +82,10 @@ export default function Header() {
         </div>
       </div>
 
-      <nav className={`main-nav ${menuOpen ? "open" : ""}`} aria-label="Primary navigation">
+      <nav
+        className={`main-nav ${menuOpen ? "open" : ""}`}
+        aria-label="Primary navigation"
+      >
         {navLinks.map((link) => (
           <NavLink
             key={link.to}
